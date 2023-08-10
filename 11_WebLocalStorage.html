@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        window.localStorage.setItem("FirstName","Sachin");
+        console.log(window.localStorage.length);
+        console.log(window.localStorage.getItem("FirstName"));
+        window.localStorage.removeItem("FirstName")
+        console.log(window.localStorage.key("FirstName"));
+        console.log("Local Storage");
+        window.localStorage.removeItem("FirstName");
+window.localStorage.clear();
+        console.log("assignment11_WebLocalStorage");
+        console.log("Local Storage");
+        window.localStorage.setItem("name","Mayursingh Gokulsingh Rajput");
+        window.localStorage.setItem("city","Pune");
+        window.localStorage.setItem("pinCode","413522");
+        window.localStorage.setItem("district","Maharashtra");
+        console.log("Local Storage");
+        window.localStorage.removeItem("city");
+        console.log("Local Storage");
+
+        </script>
+</body>
+</html>
